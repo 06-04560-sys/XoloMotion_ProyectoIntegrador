@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jaguar
+* source:	https://sketchfab.com/3d-models/jaguar-697bfa2edc674bc29817392f918d9b8f
+* author:	LilEbo (https://sketchfab.com/ograndiosolil)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jaguar" (https://sketchfab.com/3d-models/jaguar-697bfa2edc674bc29817392f918d9b8f) by LilEbo (https://sketchfab.com/ograndiosolil) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
