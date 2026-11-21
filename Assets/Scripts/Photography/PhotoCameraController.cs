@@ -174,21 +174,27 @@ namespace Tsakel.Game
             const int size = 512;
             float prevFov = cam.fieldOfView;
             float photoFov = 2f * Mathf.Atan(viewfinderHeight * Mathf.Tan(prevFov * 0.5f * Mathf.Deg2Rad)) * Mathf.Rad2Deg;
-            RenderTexture rt = RenderTexture.GetTemporary(size, size, 24, RenderTextureFormat.ARGB32);
+            // Se renderiza en HDR (ARGBHalf) para que bloom y el tonemapping AgX reciban la misma
+            // luz que en pantalla: con un destino de 8 bits URP recorta los valores > 1 antes del post.
+            RenderTexture hdr = RenderTexture.GetTemporary(size, size, 24, RenderTextureFormat.ARGBHalf, RenderTextureReadWrite.Linear);
             RenderTexture prevTarget = cam.targetTexture;
             cam.fieldOfView = photoFov;
-            cam.targetTexture = rt;
+            cam.targetTexture = hdr;
             cam.Render();
             cam.targetTexture = prevTarget;
             cam.fieldOfView = prevFov;
 
+            // Pasa a 8 bits sRGB en la GPU y se lee como en pantalla.
+            RenderTexture ldr = RenderTexture.GetTemporary(size, size, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
+            Graphics.Blit(hdr, ldr);
             RenderTexture prevActive = RenderTexture.active;
-            RenderTexture.active = rt;
+            RenderTexture.active = ldr;
             Texture2D tex = new Texture2D(size, size, TextureFormat.RGB24, false);
             tex.ReadPixels(new Rect(0, 0, size, size), 0, 0);
             tex.Apply();
             RenderTexture.active = prevActive;
-            RenderTexture.ReleaseTemporary(rt);
+            RenderTexture.ReleaseTemporary(ldr);
+            RenderTexture.ReleaseTemporary(hdr);
             return tex;
         }
 
