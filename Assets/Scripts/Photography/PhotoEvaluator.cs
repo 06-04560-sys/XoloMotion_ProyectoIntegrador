@@ -45,6 +45,34 @@ namespace Tsakel.Game
             return best;
         }
 
+        /// <summary>
+        /// Evalua todos los animales del visor y devuelve el valido mas cercano a la mira.
+        /// Si ninguno es valido, devuelve la evaluacion del mas centrado (para mostrar la pista correcta).
+        /// Asi un animal tapado cerca del centro no impide fotografiar a otro que si se ve.
+        /// </summary>
+        public static PhotoEvaluation PickAndEvaluate(Camera cam, IList<AnimalSubject> animals, float heightFraction, float maxDistance, float minCoverage, float minVisibleFraction)
+        {
+            PhotoEvaluation fallback = Evaluate(cam, Pick(cam, animals, heightFraction), heightFraction, maxDistance, minCoverage, minVisibleFraction);
+            if (fallback.IsValid || animals == null) return fallback;
+
+            Rect vf = ViewfinderRect(cam, heightFraction);
+            PhotoEvaluation best = fallback;
+            float bestD = float.MaxValue;
+            for (int i = 0; i < animals.Count; i++)
+            {
+                AnimalSubject a = animals[i];
+                Bounds b;
+                if (a == null || a == fallback.Animal || !a.IsPhotographable || !a.TryGetBounds(out b)) continue;
+                Vector3 v = cam.WorldToViewportPoint(b.center);
+                if (v.z <= 0f || !vf.Contains(new Vector2(v.x, v.y))) continue;
+                float d = new Vector2(v.x - 0.5f, v.y - 0.5f).sqrMagnitude;
+                if (d >= bestD) continue;
+                PhotoEvaluation e = Evaluate(cam, a, heightFraction, maxDistance, minCoverage, minVisibleFraction);
+                if (e.IsValid) { best = e; bestD = d; }
+            }
+            return best;
+        }
+
         public static PhotoEvaluation Evaluate(Camera cam, AnimalSubject animal, float heightFraction, float maxDistance, float minCoverage, float minVisibleFraction)
         {
             PhotoEvaluation e = new PhotoEvaluation();

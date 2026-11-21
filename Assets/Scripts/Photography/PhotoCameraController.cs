@@ -141,8 +141,8 @@ namespace Tsakel.Game
             // objetivo en el visor y evaluacion en vivo
             if (amount > 0.3f)
             {
-                Target = PhotoEvaluator.Pick(cam, animals, viewfinderHeight);
-                Live = PhotoEvaluator.Evaluate(cam, Target, viewfinderHeight, maxDistance, minCoverage, minVisibleFraction);
+                Live = PhotoEvaluator.PickAndEvaluate(cam, animals, viewfinderHeight, maxDistance, minCoverage, minVisibleFraction);
+                Target = Live.Animal;
             }
             else
             {
@@ -157,8 +157,8 @@ namespace Tsakel.Game
         private void Shoot()
         {
             cooldownLeft = cooldownSeconds;
-            AnimalSubject subject = PhotoEvaluator.Pick(cam, animals, viewfinderHeight);
-            PhotoEvaluation ev = PhotoEvaluator.Evaluate(cam, subject, viewfinderHeight, maxDistance, minCoverage, minVisibleFraction);
+            PhotoEvaluation ev = PhotoEvaluator.PickAndEvaluate(cam, animals, viewfinderHeight, maxDistance, minCoverage, minVisibleFraction);
+            AnimalSubject subject = ev.Animal;
             if (!ev.IsValid)
             {
                 if (PhotoRejected != null) PhotoRejected(ev.Verdict);
