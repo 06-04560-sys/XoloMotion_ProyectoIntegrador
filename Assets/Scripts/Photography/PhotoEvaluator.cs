@@ -17,6 +17,20 @@ namespace Tsakel.Game
     /// <summary>Reglas del GDD para una foto valida: distancia, % del encuadre y sin obstaculos.</summary>
     public static class PhotoEvaluator
     {
+        /// <summary>
+        /// Capa de las plantas (billboards sin colision): tienen un collider trigger que no detiene
+        /// al jugador pero si tapa la foto.
+        /// </summary>
+        public const string FoliageLayer = "Follaje";
+        private static int foliageMask = -1;
+
+        private static bool Blocks(Vector3 from, Vector3 to)
+        {
+            if (Physics.Linecast(from, to, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore)) return true;
+            if (foliageMask < 0) foliageMask = LayerMask.GetMask(FoliageLayer);
+            return foliageMask != 0 && Physics.Linecast(from, to, foliageMask, QueryTriggerInteraction.Collide);
+        }
+
         /// <summary>Rectangulo del visor en coordenadas de viewport (cuadrado centrado).</summary>
         public static Rect ViewfinderRect(Camera cam, float heightFraction)
         {
@@ -132,7 +146,7 @@ namespace Tsakel.Game
                 float len = dir.magnitude;
                 if (len < 0.5f) { visible++; continue; }
                 Vector3 start = camPos + dir / len * 0.4f; // sale de la capsula del jugador
-                if (!Physics.Linecast(start, p, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore)) visible++;
+                if (!Blocks(start, p)) visible++;
             }
             if ((float)visible / total < minVisibleFraction) { e.Verdict = PhotoVerdict.Blocked; return e; }
 

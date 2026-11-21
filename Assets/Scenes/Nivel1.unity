@@ -751,7 +751,8 @@ GameObject:
   - component: {fileID: 32886018}
   - component: {fileID: 32886017}
   - component: {fileID: 32886019}
-  m_Layer: 0
+  - component: {fileID: 32886020}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,6 +847,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &32886020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32886016}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &85753871
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +879,8 @@ GameObject:
   - component: {fileID: 85753873}
   - component: {fileID: 85753872}
   - component: {fileID: 85753874}
-  m_Layer: 0
+  - component: {fileID: 85753875}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,6 +975,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &85753875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85753871}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &99461353
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +1007,8 @@ GameObject:
   - component: {fileID: 99461355}
   - component: {fileID: 99461354}
   - component: {fileID: 99461356}
-  m_Layer: 0
+  - component: {fileID: 99461357}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,6 +1103,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &99461357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99461353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &108718747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,7 +1265,8 @@ GameObject:
   - component: {fileID: 110908171}
   - component: {fileID: 110908170}
   - component: {fileID: 110908172}
-  m_Layer: 0
+  - component: {fileID: 110908173}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1294,6 +1361,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &110908173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110908169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &118751119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,7 +1977,8 @@ GameObject:
   - component: {fileID: 163658059}
   - component: {fileID: 163658058}
   - component: {fileID: 163658060}
-  m_Layer: 0
+  - component: {fileID: 163658061}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1984,6 +2073,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &163658061
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163658057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &166842689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2235,8 @@ GameObject:
   - component: {fileID: 171169916}
   - component: {fileID: 171169915}
   - component: {fileID: 171169917}
-  m_Layer: 0
+  - component: {fileID: 171169918}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2220,6 +2331,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &171169918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171169914}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &210816725
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,7 +2363,8 @@ GameObject:
   - component: {fileID: 210816727}
   - component: {fileID: 210816726}
   - component: {fileID: 210816728}
-  m_Layer: 0
+  - component: {fileID: 210816729}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2326,6 +2459,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &210816729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210816725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &218494867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,7 +2491,8 @@ GameObject:
   - component: {fileID: 218494869}
   - component: {fileID: 218494868}
   - component: {fileID: 218494870}
-  m_Layer: 0
+  - component: {fileID: 218494871}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2432,6 +2587,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &218494871
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218494867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &234281217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,7 +2879,8 @@ GameObject:
   - component: {fileID: 255373247}
   - component: {fileID: 255373246}
   - component: {fileID: 255373248}
-  m_Layer: 0
+  - component: {fileID: 255373249}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2798,6 +2975,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &255373249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255373245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &277944700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,7 +3255,8 @@ GameObject:
   - component: {fileID: 291944095}
   - component: {fileID: 291944094}
   - component: {fileID: 291944096}
-  m_Layer: 0
+  - component: {fileID: 291944097}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3152,6 +3351,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &291944097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291944093}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &299207997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3163,7 +3383,8 @@ GameObject:
   - component: {fileID: 299207999}
   - component: {fileID: 299207998}
   - component: {fileID: 299208000}
-  m_Layer: 0
+  - component: {fileID: 299208001}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3258,6 +3479,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &299208001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299207997}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &301903333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3399,7 +3641,8 @@ GameObject:
   - component: {fileID: 304368907}
   - component: {fileID: 304368906}
   - component: {fileID: 304368908}
-  m_Layer: 0
+  - component: {fileID: 304368909}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3494,6 +3737,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &304368909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304368905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &315756783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,7 +3769,8 @@ GameObject:
   - component: {fileID: 315756785}
   - component: {fileID: 315756784}
   - component: {fileID: 315756786}
-  m_Layer: 0
+  - component: {fileID: 315756787}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3600,6 +3865,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &315756787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315756783}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &326037401
 GameObject:
   m_ObjectHideFlags: 0
@@ -3611,7 +3897,8 @@ GameObject:
   - component: {fileID: 326037403}
   - component: {fileID: 326037402}
   - component: {fileID: 326037404}
-  m_Layer: 0
+  - component: {fileID: 326037405}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3706,6 +3993,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &326037405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326037401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &360573580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3717,7 +4025,8 @@ GameObject:
   - component: {fileID: 360573582}
   - component: {fileID: 360573581}
   - component: {fileID: 360573583}
-  m_Layer: 0
+  - component: {fileID: 360573584}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3812,6 +4121,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &360573584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360573580}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &371386934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,7 +4283,8 @@ GameObject:
   - component: {fileID: 372275412}
   - component: {fileID: 372275411}
   - component: {fileID: 372275413}
-  m_Layer: 0
+  - component: {fileID: 372275414}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4048,6 +4379,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &372275414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372275410}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &375026318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,7 +4615,8 @@ GameObject:
   - component: {fileID: 426397667}
   - component: {fileID: 426397666}
   - component: {fileID: 426397668}
-  m_Layer: 0
+  - component: {fileID: 426397669}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4358,6 +4711,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &426397669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426397665}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &438129452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,7 +5003,8 @@ GameObject:
   - component: {fileID: 453718803}
   - component: {fileID: 453718802}
   - component: {fileID: 453718804}
-  m_Layer: 0
+  - component: {fileID: 453718805}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4724,6 +5099,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &453718805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453718801}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &458175163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4735,7 +5131,8 @@ GameObject:
   - component: {fileID: 458175165}
   - component: {fileID: 458175164}
   - component: {fileID: 458175166}
-  m_Layer: 0
+  - component: {fileID: 458175167}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4830,6 +5227,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &458175167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458175163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &461815175 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e3817dd7e33d2494abac7510a4304221, type: 3}
@@ -5202,7 +5620,8 @@ GameObject:
   - component: {fileID: 488412352}
   - component: {fileID: 488412351}
   - component: {fileID: 488412353}
-  m_Layer: 0
+  - component: {fileID: 488412354}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5297,6 +5716,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &488412354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488412350}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &518036907
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,7 +5781,8 @@ GameObject:
   - component: {fileID: 531601464}
   - component: {fileID: 531601463}
   - component: {fileID: 531601465}
-  m_Layer: 0
+  - component: {fileID: 531601466}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5436,6 +5877,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &531601466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531601462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &555228342
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,7 +6039,8 @@ GameObject:
   - component: {fileID: 557721906}
   - component: {fileID: 557721905}
   - component: {fileID: 557721907}
-  m_Layer: 0
+  - component: {fileID: 557721908}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5672,6 +6135,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &557721908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557721904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &568802136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5719,7 +6203,8 @@ GameObject:
   - component: {fileID: 593223290}
   - component: {fileID: 593223289}
   - component: {fileID: 593223291}
-  m_Layer: 0
+  - component: {fileID: 593223292}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5814,6 +6299,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &593223292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593223288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &595920629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5825,7 +6331,8 @@ GameObject:
   - component: {fileID: 595920631}
   - component: {fileID: 595920630}
   - component: {fileID: 595920632}
-  m_Layer: 0
+  - component: {fileID: 595920633}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5920,6 +6427,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &595920633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595920629}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &598197228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5931,7 +6459,8 @@ GameObject:
   - component: {fileID: 598197230}
   - component: {fileID: 598197229}
   - component: {fileID: 598197231}
-  m_Layer: 0
+  - component: {fileID: 598197232}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6026,6 +6555,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &598197232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598197228}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &603315564
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,7 +6717,8 @@ GameObject:
   - component: {fileID: 604475767}
   - component: {fileID: 604475766}
   - component: {fileID: 604475768}
-  m_Layer: 0
+  - component: {fileID: 604475769}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6262,6 +6813,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &604475769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604475765}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &606209939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,7 +6845,8 @@ GameObject:
   - component: {fileID: 606209941}
   - component: {fileID: 606209940}
   - component: {fileID: 606209942}
-  m_Layer: 0
+  - component: {fileID: 606209943}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6368,6 +6941,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &606209943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606209939}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &609729729 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7304752905a47467c818c12a5019b034, type: 3}
@@ -6408,7 +7002,8 @@ GameObject:
   - component: {fileID: 632856744}
   - component: {fileID: 632856743}
   - component: {fileID: 632856745}
-  m_Layer: 0
+  - component: {fileID: 632856746}
+  m_Layer: 8
   m_Name: Vegetacion3_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6503,6 +7098,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &632856746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632856742}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &635862897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6514,7 +7130,8 @@ GameObject:
   - component: {fileID: 635862899}
   - component: {fileID: 635862898}
   - component: {fileID: 635862900}
-  m_Layer: 0
+  - component: {fileID: 635862901}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6609,6 +7226,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &635862901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635862897}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1001 &641502282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6728,7 +7366,8 @@ GameObject:
   - component: {fileID: 650917129}
   - component: {fileID: 650917128}
   - component: {fileID: 650917130}
-  m_Layer: 0
+  - component: {fileID: 650917131}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6823,6 +7462,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &650917131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650917127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1001 &656392370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6935,7 +7595,8 @@ GameObject:
   - component: {fileID: 671618823}
   - component: {fileID: 671618822}
   - component: {fileID: 671618824}
-  m_Layer: 0
+  - component: {fileID: 671618825}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7030,6 +7691,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &671618825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671618821}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &679952432
 GameObject:
   m_ObjectHideFlags: 0
@@ -7041,7 +7723,8 @@ GameObject:
   - component: {fileID: 679952434}
   - component: {fileID: 679952433}
   - component: {fileID: 679952435}
-  m_Layer: 0
+  - component: {fileID: 679952436}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7136,6 +7819,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &679952436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679952432}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &690915595
 GameObject:
   m_ObjectHideFlags: 0
@@ -7650,7 +8354,8 @@ GameObject:
   - component: {fileID: 703169080}
   - component: {fileID: 703169079}
   - component: {fileID: 703169081}
-  m_Layer: 0
+  - component: {fileID: 703169082}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7745,6 +8450,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &703169082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703169078}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1001 &708239674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7987,7 +8713,8 @@ GameObject:
   - component: {fileID: 758624302}
   - component: {fileID: 758624301}
   - component: {fileID: 758624303}
-  m_Layer: 0
+  - component: {fileID: 758624304}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8082,6 +8809,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &758624304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758624300}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!4 &762405797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69374b94cf0ae472e9c1ce9bb337099b, type: 3}
@@ -8769,7 +9517,8 @@ GameObject:
   - component: {fileID: 912662021}
   - component: {fileID: 912662020}
   - component: {fileID: 912662022}
-  m_Layer: 0
+  - component: {fileID: 912662023}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8864,6 +9613,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &912662023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912662019}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &923731477
 GameObject:
   m_ObjectHideFlags: 0
@@ -9219,7 +9989,8 @@ GameObject:
   - component: {fileID: 945653652}
   - component: {fileID: 945653651}
   - component: {fileID: 945653653}
-  m_Layer: 0
+  - component: {fileID: 945653654}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9314,6 +10085,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &945653654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945653650}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &980721331
 GameObject:
   m_ObjectHideFlags: 0
@@ -10041,7 +10833,8 @@ GameObject:
   - component: {fileID: 1031437179}
   - component: {fileID: 1031437178}
   - component: {fileID: 1031437180}
-  m_Layer: 0
+  - component: {fileID: 1031437181}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10136,6 +10929,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1031437181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031437177}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1031460711
 GameObject:
   m_ObjectHideFlags: 0
@@ -15113,7 +15927,8 @@ GameObject:
   - component: {fileID: 1042305482}
   - component: {fileID: 1042305481}
   - component: {fileID: 1042305483}
-  m_Layer: 0
+  - component: {fileID: 1042305484}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15208,6 +16023,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1042305484
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042305480}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1059769655
 GameObject:
   m_ObjectHideFlags: 0
@@ -15614,7 +16450,8 @@ GameObject:
   - component: {fileID: 1209373548}
   - component: {fileID: 1209373547}
   - component: {fileID: 1209373549}
-  m_Layer: 0
+  - component: {fileID: 1209373550}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15709,6 +16546,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1209373550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209373546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1212361518
 GameObject:
   m_ObjectHideFlags: 0
@@ -15720,7 +16578,8 @@ GameObject:
   - component: {fileID: 1212361520}
   - component: {fileID: 1212361519}
   - component: {fileID: 1212361521}
-  m_Layer: 0
+  - component: {fileID: 1212361522}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15815,6 +16674,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1212361522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212361518}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1216447480
 GameObject:
   m_ObjectHideFlags: 0
@@ -15891,7 +16771,8 @@ GameObject:
   - component: {fileID: 1234610819}
   - component: {fileID: 1234610818}
   - component: {fileID: 1234610820}
-  m_Layer: 0
+  - component: {fileID: 1234610821}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15986,6 +16867,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1234610821
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234610817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1257458209
 GameObject:
   m_ObjectHideFlags: 0
@@ -16127,7 +17029,8 @@ GameObject:
   - component: {fileID: 1302609102}
   - component: {fileID: 1302609101}
   - component: {fileID: 1302609103}
-  m_Layer: 0
+  - component: {fileID: 1302609104}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16222,6 +17125,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1302609104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302609100}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &1304537331
 GameObject:
   m_ObjectHideFlags: 0
@@ -16493,7 +17417,8 @@ GameObject:
   - component: {fileID: 1332821983}
   - component: {fileID: 1332821982}
   - component: {fileID: 1332821984}
-  m_Layer: 0
+  - component: {fileID: 1332821985}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16588,6 +17513,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1332821985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332821981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1341231882
 GameObject:
   m_ObjectHideFlags: 0
@@ -16859,7 +17805,8 @@ GameObject:
   - component: {fileID: 1342382663}
   - component: {fileID: 1342382662}
   - component: {fileID: 1342382664}
-  m_Layer: 0
+  - component: {fileID: 1342382665}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16954,6 +17901,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1342382665
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342382661}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1347483553
 GameObject:
   m_ObjectHideFlags: 0
@@ -16965,7 +17933,8 @@ GameObject:
   - component: {fileID: 1347483555}
   - component: {fileID: 1347483554}
   - component: {fileID: 1347483556}
-  m_Layer: 0
+  - component: {fileID: 1347483557}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17060,6 +18029,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1347483557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347483553}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1347997110
 GameObject:
   m_ObjectHideFlags: 0
@@ -17839,7 +18829,8 @@ GameObject:
   - component: {fileID: 1478056768}
   - component: {fileID: 1478056767}
   - component: {fileID: 1478056769}
-  m_Layer: 0
+  - component: {fileID: 1478056770}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17934,6 +18925,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1478056770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478056766}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1493722719
 GameObject:
   m_ObjectHideFlags: 0
@@ -17945,7 +18957,8 @@ GameObject:
   - component: {fileID: 1493722721}
   - component: {fileID: 1493722720}
   - component: {fileID: 1493722722}
-  m_Layer: 0
+  - component: {fileID: 1493722723}
+  m_Layer: 8
   m_Name: Vegetacion2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18040,6 +19053,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1493722723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493722719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1508400712
 GameObject:
   m_ObjectHideFlags: 0
@@ -18084,7 +19118,8 @@ GameObject:
   - component: {fileID: 1511083003}
   - component: {fileID: 1511083002}
   - component: {fileID: 1511083004}
-  m_Layer: 0
+  - component: {fileID: 1511083005}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18179,6 +19214,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1511083005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511083001}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1551239152
 GameObject:
   m_ObjectHideFlags: 0
@@ -18433,7 +19489,8 @@ GameObject:
   - component: {fileID: 1553495647}
   - component: {fileID: 1553495646}
   - component: {fileID: 1553495648}
-  m_Layer: 0
+  - component: {fileID: 1553495649}
+  m_Layer: 8
   m_Name: Vegetacion1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18528,6 +19585,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1553495649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553495645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1554783748
 GameObject:
   m_ObjectHideFlags: 0
@@ -18669,7 +19747,8 @@ GameObject:
   - component: {fileID: 1559326856}
   - component: {fileID: 1559326855}
   - component: {fileID: 1559326857}
-  m_Layer: 0
+  - component: {fileID: 1559326858}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18764,6 +19843,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1559326858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559326854}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1565226446
 GameObject:
   m_ObjectHideFlags: 0
@@ -19032,7 +20132,8 @@ GameObject:
   - component: {fileID: 1595758903}
   - component: {fileID: 1595758902}
   - component: {fileID: 1595758904}
-  m_Layer: 0
+  - component: {fileID: 1595758905}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19127,6 +20228,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1595758905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595758901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1607904029
 GameObject:
   m_ObjectHideFlags: 0
@@ -19499,7 +20621,8 @@ GameObject:
   - component: {fileID: 1653947982}
   - component: {fileID: 1653947981}
   - component: {fileID: 1653947983}
-  m_Layer: 0
+  - component: {fileID: 1653947984}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19594,6 +20717,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1653947984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653947980}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1659587357
 GameObject:
   m_ObjectHideFlags: 0
@@ -19605,7 +20749,8 @@ GameObject:
   - component: {fileID: 1659587359}
   - component: {fileID: 1659587358}
   - component: {fileID: 1659587360}
-  m_Layer: 0
+  - component: {fileID: 1659587361}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19700,6 +20845,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1659587361
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659587357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1662945529
 GameObject:
   m_ObjectHideFlags: 0
@@ -19798,7 +20964,8 @@ GameObject:
   - component: {fileID: 1694133417}
   - component: {fileID: 1694133416}
   - component: {fileID: 1694133418}
-  m_Layer: 0
+  - component: {fileID: 1694133419}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19893,6 +21060,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1694133419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694133415}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1695050641
 GameObject:
   m_ObjectHideFlags: 0
@@ -20034,7 +21222,8 @@ GameObject:
   - component: {fileID: 1704196193}
   - component: {fileID: 1704196192}
   - component: {fileID: 1704196194}
-  m_Layer: 0
+  - component: {fileID: 1704196195}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20129,6 +21318,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1704196195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704196191}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1704496853
 GameObject:
   m_ObjectHideFlags: 0
@@ -20140,7 +21350,8 @@ GameObject:
   - component: {fileID: 1704496855}
   - component: {fileID: 1704496854}
   - component: {fileID: 1704496856}
-  m_Layer: 0
+  - component: {fileID: 1704496857}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20235,6 +21446,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1704496857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704496853}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!4 &1725568060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69374b94cf0ae472e9c1ce9bb337099b, type: 3}
@@ -20352,7 +21584,8 @@ GameObject:
   - component: {fileID: 1735484141}
   - component: {fileID: 1735484140}
   - component: {fileID: 1735484142}
-  m_Layer: 0
+  - component: {fileID: 1735484143}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20447,6 +21680,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1735484143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735484139}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1737139245
 GameObject:
   m_ObjectHideFlags: 0
@@ -20593,7 +21847,8 @@ GameObject:
   - component: {fileID: 1757628402}
   - component: {fileID: 1757628401}
   - component: {fileID: 1757628403}
-  m_Layer: 0
+  - component: {fileID: 1757628404}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20688,6 +21943,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1757628404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757628400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1766711359
 GameObject:
   m_ObjectHideFlags: 0
@@ -20829,7 +22105,8 @@ GameObject:
   - component: {fileID: 1771491822}
   - component: {fileID: 1771491821}
   - component: {fileID: 1771491823}
-  m_Layer: 0
+  - component: {fileID: 1771491824}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20924,6 +22201,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1771491824
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771491820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1784032804
 GameObject:
   m_ObjectHideFlags: 0
@@ -20935,7 +22233,8 @@ GameObject:
   - component: {fileID: 1784032806}
   - component: {fileID: 1784032805}
   - component: {fileID: 1784032807}
-  m_Layer: 0
+  - component: {fileID: 1784032808}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21030,6 +22329,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1784032808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784032804}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1815946745
 GameObject:
   m_ObjectHideFlags: 0
@@ -21041,7 +22361,8 @@ GameObject:
   - component: {fileID: 1815946747}
   - component: {fileID: 1815946746}
   - component: {fileID: 1815946748}
-  m_Layer: 0
+  - component: {fileID: 1815946749}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21136,6 +22457,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1815946749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815946745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1819486686
 GameObject:
   m_ObjectHideFlags: 0
@@ -21277,7 +22619,8 @@ GameObject:
   - component: {fileID: 1842928391}
   - component: {fileID: 1842928390}
   - component: {fileID: 1842928392}
-  m_Layer: 0
+  - component: {fileID: 1842928393}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21372,6 +22715,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1842928393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842928389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1843245023
 GameObject:
   m_ObjectHideFlags: 0
@@ -21643,7 +23007,8 @@ GameObject:
   - component: {fileID: 1874313132}
   - component: {fileID: 1874313131}
   - component: {fileID: 1874313133}
-  m_Layer: 0
+  - component: {fileID: 1874313134}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21738,6 +23103,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1874313134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874313130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &1888502988
 GameObject:
   m_ObjectHideFlags: 0
@@ -22127,7 +23513,8 @@ GameObject:
   - component: {fileID: 1900378403}
   - component: {fileID: 1900378402}
   - component: {fileID: 1900378404}
-  m_Layer: 0
+  - component: {fileID: 1900378405}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22222,6 +23609,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1900378405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900378401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1933535835
 GameObject:
   m_ObjectHideFlags: 0
@@ -22233,7 +23641,8 @@ GameObject:
   - component: {fileID: 1933535837}
   - component: {fileID: 1933535836}
   - component: {fileID: 1933535838}
-  m_Layer: 0
+  - component: {fileID: 1933535839}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22328,6 +23737,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1933535839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933535835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1940760452
 GameObject:
   m_ObjectHideFlags: 0
@@ -22431,7 +23861,8 @@ GameObject:
   - component: {fileID: 1954928540}
   - component: {fileID: 1954928539}
   - component: {fileID: 1954928541}
-  m_Layer: 0
+  - component: {fileID: 1954928542}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22526,6 +23957,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1954928542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954928538}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1956800409
 GameObject:
   m_ObjectHideFlags: 0
@@ -22537,7 +23989,8 @@ GameObject:
   - component: {fileID: 1956800411}
   - component: {fileID: 1956800410}
   - component: {fileID: 1956800412}
-  m_Layer: 0
+  - component: {fileID: 1956800413}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22632,6 +24085,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1956800413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956800409}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1974461497
 GameObject:
   m_ObjectHideFlags: 0
@@ -22643,7 +24117,8 @@ GameObject:
   - component: {fileID: 1974461499}
   - component: {fileID: 1974461498}
   - component: {fileID: 1974461500}
-  m_Layer: 0
+  - component: {fileID: 1974461501}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22738,6 +24213,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1974461501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974461497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1974829077
 GameObject:
   m_ObjectHideFlags: 0
@@ -22749,7 +24245,8 @@ GameObject:
   - component: {fileID: 1974829079}
   - component: {fileID: 1974829078}
   - component: {fileID: 1974829080}
-  m_Layer: 0
+  - component: {fileID: 1974829081}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22844,6 +24341,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1974829081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974829077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &1975998403
 GameObject:
   m_ObjectHideFlags: 0
@@ -23245,7 +24763,8 @@ GameObject:
   - component: {fileID: 1990473485}
   - component: {fileID: 1990473484}
   - component: {fileID: 1990473486}
-  m_Layer: 0
+  - component: {fileID: 1990473487}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23340,6 +24859,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1990473487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990473483}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &1995785354
 GameObject:
   m_ObjectHideFlags: 0
@@ -23351,7 +24891,8 @@ GameObject:
   - component: {fileID: 1995785356}
   - component: {fileID: 1995785355}
   - component: {fileID: 1995785357}
-  m_Layer: 0
+  - component: {fileID: 1995785358}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23446,6 +24987,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &1995785358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995785354}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &2006100891
 GameObject:
   m_ObjectHideFlags: 0
@@ -23457,7 +25019,8 @@ GameObject:
   - component: {fileID: 2006100893}
   - component: {fileID: 2006100892}
   - component: {fileID: 2006100894}
-  m_Layer: 0
+  - component: {fileID: 2006100895}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23552,6 +25115,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2006100895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006100891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &2018613928
 GameObject:
   m_ObjectHideFlags: 0
@@ -23693,7 +25277,8 @@ GameObject:
   - component: {fileID: 2026010574}
   - component: {fileID: 2026010573}
   - component: {fileID: 2026010575}
-  m_Layer: 0
+  - component: {fileID: 2026010576}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23788,6 +25373,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2026010576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026010572}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &2033850283
 GameObject:
   m_ObjectHideFlags: 0
@@ -24165,7 +25771,8 @@ GameObject:
   - component: {fileID: 2069797987}
   - component: {fileID: 2069797986}
   - component: {fileID: 2069797988}
-  m_Layer: 0
+  - component: {fileID: 2069797989}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24260,6 +25867,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2069797989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069797985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!4 &2072088765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69374b94cf0ae472e9c1ce9bb337099b, type: 3}
@@ -24276,7 +25904,8 @@ GameObject:
   - component: {fileID: 2086764487}
   - component: {fileID: 2086764486}
   - component: {fileID: 2086764488}
-  m_Layer: 0
+  - component: {fileID: 2086764489}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24371,6 +26000,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2086764489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086764485}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1 &2089671503
 GameObject:
   m_ObjectHideFlags: 0
@@ -24492,7 +26142,8 @@ GameObject:
   - component: {fileID: 2115430105}
   - component: {fileID: 2115430104}
   - component: {fileID: 2115430106}
-  m_Layer: 0
+  - component: {fileID: 2115430107}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24587,6 +26238,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2115430107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115430103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &2120650664
 GameObject:
   m_ObjectHideFlags: 0
@@ -24598,7 +26270,8 @@ GameObject:
   - component: {fileID: 2120650666}
   - component: {fileID: 2120650665}
   - component: {fileID: 2120650667}
-  m_Layer: 0
+  - component: {fileID: 2120650668}
+  m_Layer: 8
   m_Name: Vegetacion3_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24693,6 +26366,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2120650668
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120650664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.295, y: 7.3355002, z: 0.05}
+  m_Center: {x: 0, y: 3.6677501, z: 0}
 --- !u!1 &2128633275
 GameObject:
   m_ObjectHideFlags: 0
@@ -29706,7 +31400,8 @@ GameObject:
   - component: {fileID: 2141548776}
   - component: {fileID: 2141548775}
   - component: {fileID: 2141548777}
-  m_Layer: 0
+  - component: {fileID: 2141548778}
+  m_Layer: 8
   m_Name: Vegetacion1_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29801,6 +31496,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2141548778
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141548774}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.15, y: 7.327, z: 0.05}
+  m_Center: {x: 0, y: 3.6635, z: 0}
 --- !u!1 &2142251765
 GameObject:
   m_ObjectHideFlags: 0
@@ -29812,7 +31528,8 @@ GameObject:
   - component: {fileID: 2142251767}
   - component: {fileID: 2142251766}
   - component: {fileID: 2142251768}
-  m_Layer: 0
+  - component: {fileID: 2142251769}
+  m_Layer: 8
   m_Name: Vegetacion2_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29907,6 +31624,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tsakel.Environment.BillboardVegetation
   targetCamera: {fileID: 0}
   yawOffset: 0
+--- !u!65 &2142251769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142251765}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.585, y: 7.1485, z: 0.05}
+  m_Center: {x: 0, y: 3.57425, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
