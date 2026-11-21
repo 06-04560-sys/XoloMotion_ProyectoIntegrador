@@ -87,10 +87,17 @@ namespace Tsakel.Game
             }
         }
 
-        /// <summary>Logo opcional: coloca Assets/Resources/UI/Logo.png (tipo Sprite) y aparecera solo.</summary>
+        /// <summary>
+        /// Logo del menu: Assets/Resources/UI/Logo.png. Si se importo como textura y no como Sprite,
+        /// se crea el Sprite aqui para que el logo aparezca de todos modos.
+        /// </summary>
         public static Sprite LoadLogo()
         {
-            return Resources.Load<Sprite>("UI/Logo");
+            Sprite sprite = Resources.Load<Sprite>("UI/Logo");
+            if (sprite != null) return sprite;
+            Texture2D tex = Resources.Load<Texture2D>("UI/Logo");
+            if (tex == null) return null;
+            return Sprite.Create(tex, new Rect(0f, 0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100f);
         }
 
         private static float RoundedAlpha(float x, float y)

@@ -102,6 +102,8 @@ namespace Tsakel.Game
                 string title = "<color=#7A9A2E>TS</color><color=#F5EAD0>A</color><color=#F29A3A>K</color><color=#A8C84A>EL</color>";
                 Text big = UIKit.NewText(sign.Face, "Titulo", title, 210, Palette.Leaf, TextAnchor.MiddleCenter, FontStyle.Bold, true);
                 UIKit.Anchor(big.rectTransform, top, top, new Vector2(940f, 230f), new Vector2(0f, -85f));
+                // con Truncate, una linea de 210 pt no cabe en 230 px y el titulo no se dibujaba
+                big.verticalOverflow = VerticalWrapMode.Overflow;
             }
 
             Button start = UIKit.LeafButton(mainRoot, "Iniciar", "INICIAR", 48, ShowTutorial);
