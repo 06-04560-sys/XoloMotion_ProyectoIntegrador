@@ -3,7 +3,12 @@ guid: e3817dd7e33d2494abac7510a4304221
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jaguar_mat
+    second: {fileID: 2100000, guid: 8459ba63639314f52a1b606b235f6367, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

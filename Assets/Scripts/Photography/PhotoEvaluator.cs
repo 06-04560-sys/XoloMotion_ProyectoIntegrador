@@ -17,6 +17,20 @@ namespace Tsakel.Game
     /// <summary>Reglas del GDD para una foto valida: distancia, % del encuadre y sin obstaculos.</summary>
     public static class PhotoEvaluator
     {
+        /// <summary>
+        /// Capa de las plantas (billboards sin colision): tienen un collider trigger que no detiene
+        /// al jugador pero si tapa la foto.
+        /// </summary>
+        public const string FoliageLayer = "Follaje";
+        private static int foliageMask = -1;
+
+        private static bool Blocks(Vector3 from, Vector3 to)
+        {
+            if (Physics.Linecast(from, to, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore)) return true;
+            if (foliageMask < 0) foliageMask = LayerMask.GetMask(FoliageLayer);
+            return foliageMask != 0 && Physics.Linecast(from, to, foliageMask, QueryTriggerInteraction.Collide);
+        }
+
         /// <summary>Rectangulo del visor en coordenadas de viewport (cuadrado centrado).</summary>
         public static Rect ViewfinderRect(Camera cam, float heightFraction)
         {
@@ -41,6 +55,34 @@ namespace Tsakel.Game
                 if (v.z <= 0f || !vf.Contains(new Vector2(v.x, v.y))) continue;
                 float d = new Vector2(v.x - 0.5f, v.y - 0.5f).sqrMagnitude;
                 if (d < bestD) { bestD = d; best = a; }
+            }
+            return best;
+        }
+
+        /// <summary>
+        /// Evalua todos los animales del visor y devuelve el valido mas cercano a la mira.
+        /// Si ninguno es valido, devuelve la evaluacion del mas centrado (para mostrar la pista correcta).
+        /// Asi un animal tapado cerca del centro no impide fotografiar a otro que si se ve.
+        /// </summary>
+        public static PhotoEvaluation PickAndEvaluate(Camera cam, IList<AnimalSubject> animals, float heightFraction, float maxDistance, float minCoverage, float minVisibleFraction)
+        {
+            PhotoEvaluation fallback = Evaluate(cam, Pick(cam, animals, heightFraction), heightFraction, maxDistance, minCoverage, minVisibleFraction);
+            if (fallback.IsValid || animals == null) return fallback;
+
+            Rect vf = ViewfinderRect(cam, heightFraction);
+            PhotoEvaluation best = fallback;
+            float bestD = float.MaxValue;
+            for (int i = 0; i < animals.Count; i++)
+            {
+                AnimalSubject a = animals[i];
+                Bounds b;
+                if (a == null || a == fallback.Animal || !a.IsPhotographable || !a.TryGetBounds(out b)) continue;
+                Vector3 v = cam.WorldToViewportPoint(b.center);
+                if (v.z <= 0f || !vf.Contains(new Vector2(v.x, v.y))) continue;
+                float d = new Vector2(v.x - 0.5f, v.y - 0.5f).sqrMagnitude;
+                if (d >= bestD) continue;
+                PhotoEvaluation e = Evaluate(cam, a, heightFraction, maxDistance, minCoverage, minVisibleFraction);
+                if (e.IsValid) { best = e; bestD = d; }
             }
             return best;
         }
@@ -104,7 +146,7 @@ namespace Tsakel.Game
                 float len = dir.magnitude;
                 if (len < 0.5f) { visible++; continue; }
                 Vector3 start = camPos + dir / len * 0.4f; // sale de la capsula del jugador
-                if (!Physics.Linecast(start, p, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore)) visible++;
+                if (!Blocks(start, p)) visible++;
             }
             if ((float)visible / total < minVisibleFraction) { e.Verdict = PhotoVerdict.Blocked; return e; }
 

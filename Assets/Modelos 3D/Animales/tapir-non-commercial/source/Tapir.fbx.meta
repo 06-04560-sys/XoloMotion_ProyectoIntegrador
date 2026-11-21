@@ -3,7 +3,12 @@ guid: 250794c36e11e4d0a9fbad674e38fb7d
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Malay_Mat_Male
+    second: {fileID: 2100000, guid: b6eec71840fd74ff3bfe7241794b8f2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
